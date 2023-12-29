@@ -11,8 +11,8 @@ import Gradient from './Gradient';
 import Button from '../Button';
 import { CONTAINER_ANIMATION, NAVS_ANIMATION } from './animations';
 
-import { BancoInter } from '~/assets/images';
-import useAuth from '~/contexts/auth';
+import { BancoInter } from '../../assets/images';
+import useAuth from '../../contexts/auth';
 
 const Header = () => {
   const { signOut } = useAuth();

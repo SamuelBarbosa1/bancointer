@@ -1,4 +1,4 @@
-import { DEFAULT_TRANSITION } from '~/constants';
+import { DEFAULT_TRANSITION } from '../../constants';
 
 export const CONTAINER_ANIMATION = {
   unMounted: { y: -50, opacity: 0 },

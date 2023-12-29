@@ -8,10 +8,10 @@ import { useHistory } from 'react-router-dom';
 import { Container, AnimatedDropdown, NavButton } from './styles';
 import { DROP_DOWN_ANIMATION } from './animations';
 
-import useAuth from '~/contexts/auth';
-import useEventListener from '~/hooks/useEventListener';
-import { removeHashFromColor } from '~/utils';
-import useAppTheme from '~/contexts/theme';
+import useAuth from '../../../contexts/auth';
+import useEventListener from '../../../hooks/useEventListener';
+import { removeHashFromColor } from '../../../utils';
+import useAppTheme from '../../../contexts/theme';
 
 const AccountDropdown = () => {
   const history = useHistory();
